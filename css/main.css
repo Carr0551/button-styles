@@ -1,6 +1,9 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  border-radius: 8px;
+  border-width: 3px
+  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
@@ -10,4 +13,55 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  display: block;
+  margin: 1rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  padding: 0.4em;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 3px;
+}
+
+.btn:hover{
+  background-color: #000;
+}
+
+.btn-subtle {
+  color: #fff;
+  background-color: #ccc;
+  padding: 0.4em;
+}
+
+.btn-subtle:hover {
+  background: #333;
+}
+
+.btn-ghost {
+  color: #333;
+  background-color: #fff;
+  padding: 0.4em;
+}
+
+.btn-ghost:hover {
+  background: #;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f33;
+  padding: 0.4em;
+}
+
+.btn-warning:hover {
+  background: #933;
+}
+
+.btn-small {
+  color: #fff;
+  background-color: #ccc;
+  padding: 0.4em;
 }
